@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      var h2 = React.createElement("h2", null, "ReactJs");
+      var p = React.createElement("p", null, "ReactJs is a JavaScript library for building user interfaces.");
+      var div = React.createElement("div", null, [h2, p]);
+      ReactDOM.render(div, document.getElementById("root"));
+    </script>
+  </body>
+</html>
